@@ -1,0 +1,38 @@
+# ============================================================
+# 白名单策略：默认忽略全部，仅显式放行重建视频所需文件。
+# 新增需要的源码/数据文件时，在文件末尾追加 !<文件名>。
+# ============================================================
+*
+!*/
+
+# ---------------- 源码 ----------------
+!art.py
+!characters.py
+!characters2.py
+!characters3.py
+!stage.py
+!timeline.py
+!scenes1.py
+!scenes2.py
+!scenes3.py
+!scenes4.py
+!scenes5.py
+!render.py
+!music.py
+!mux.py
+!narration.py
+!svtts.py
+!extract.py
+!build.py
+
+# ---------------- 数据 ----------------
+!stats.json
+
+# ---------------- 旁白元数据（音频 vo/ 自备，不入库）----------------
+!vo_hanabi.json
+!vo_barbara.json
+
+# ---------------- 仓库文件 ----------------
+!README.md
+!requirements.txt
+!.gitignore

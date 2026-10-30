@@ -1,0 +1,12 @@
+# 渲染 / 音频合成所需（运行 render.py / music.py / mux.py）
+pycairo>=1.26
+numpy>=1.24
+
+# 仅 extract.py（从原始抓取数据重算 stats.json）需要
+scipy>=1.10
+
+# 仅 narration.py（用 edge-tts 生成默认旁白）需要；走 svtts.py 自备 SoVITS 则不需要
+edge-tts>=6.1
+
+# 注意：视频封装依赖系统级 ffmpeg / ffprobe（含 libx264、aac、loudnorm），
+# 请自行安装并确保在 PATH 中，pip 无法提供。

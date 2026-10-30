@@ -1,0 +1,84 @@
+{
+ "voice": "hanabi",
+ "label": "花火",
+ "lines": [
+  {
+   "id": "title",
+   "text": "十三万条魔方成绩，为什么不是正态分布？",
+   "dur": 3.74,
+   "file": "vo\\hanabi\\title.wav"
+  },
+  {
+   "id": "data",
+   "text": "十三万零一百零四条真实成绩。中位数四十秒，平均四十六秒。",
+   "dur": 6.1,
+   "file": "vo\\hanabi\\data.wav"
+  },
+  {
+   "id": "skew",
+   "text": "分布拖着一根长尾巴，最慢的一条，一千五百二十秒。",
+   "dur": 5.14,
+   "file": "vo\\hanabi\\skew.wav"
+  },
+  {
+   "id": "log",
+   "text": "把成绩取个对数，直方图立刻站起来了，像一口钟。",
+   "dur": 4.5,
+   "file": "vo\\hanabi\\log.wav"
+  },
+  {
+   "id": "fit",
+   "text": "实测分位数，和对数正态的预测，几乎逐点重合。",
+   "dur": 4.62,
+   "file": "vo\\hanabi\\fit.wav"
+  },
+  {
+   "id": "tail",
+   "text": "长尾那头没有底，你可以一直不复原。可是快的这一头，人类明显有上限——软件里十几万条成绩，最快的一条，一点九六秒。",
+   "dur": 11.06,
+   "file": "vo\\hanabi\\tail.wav"
+  },
+  {
+   "id": "why",
+   "text": "为什么会这样？成绩是很多小因素相乘，取对数就变成了相加。",
+   "dur": 5.78,
+   "file": "vo\\hanabi\\why.wav"
+  },
+  {
+   "id": "test",
+   "text": "检验说显著，可差距只有百分之一多一点。样本太大，拒绝不等于重要。",
+   "dur": 6.62,
+   "file": "vo\\hanabi\\test.wav"
+  },
+  {
+   "id": "interlude",
+   "text": "但这不影响它好用。",
+   "dur": 1.74,
+   "file": "vo\\hanabi\\interlude.wav"
+  },
+  {
+   "id": "profile",
+   "text": "这群人是谁？平均个人最佳三十二秒，每秒转三点一五次。",
+   "dur": 6.06,
+   "file": "vo\\hanabi\\profile.wav"
+  },
+  {
+   "id": "rank",
+   "text": "一半的人四十秒内完成，最好的一成，二十秒内。",
+   "dur": 4.58,
+   "file": "vo\\hanabi\\rank.wav"
+  },
+  {
+   "id": "answer",
+   "text": "所以答案是——对数正态。",
+   "dur": 2.02,
+   "file": "vo\\hanabi\\answer.wav"
+  },
+  {
+   "id": "outro",
+   "text": "数据不会说谎。谢谢观看。",
+   "dur": 3.54,
+   "file": "vo\\hanabi\\outro.wav"
+  }
+ ]
+}

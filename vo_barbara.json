@@ -1,0 +1,84 @@
+{
+ "voice": "barbara",
+ "label": "芭芭拉",
+ "lines": [
+  {
+   "id": "title",
+   "text": "十三万条魔方成绩，为什么不是一条对称的钟形曲线？",
+   "dur": 4.66,
+   "file": "vo\\barbara\\title.wav"
+  },
+  {
+   "id": "data",
+   "text": "十三万个魔方玩家的真实成绩。中位数四十秒，平均四十六秒。",
+   "dur": 5.62,
+   "file": "vo\\barbara\\data.wav"
+  },
+  {
+   "id": "skew",
+   "text": "可是它右边拖着一根长长的尾巴。最慢的一条，二十多分钟都没复原。",
+   "dur": 5.86,
+   "file": "vo\\barbara\\skew.wav"
+  },
+  {
+   "id": "why",
+   "text": "为什么会拖出这根尾巴？因为一局成绩不是加出来的，是乘出来的。",
+   "dur": 5.74,
+   "file": "vo\\barbara\\why.wav"
+  },
+  {
+   "id": "model",
+   "text": "观察、判断、找块、转动、收手，每一步都乘上一个时间。任何一步慢一点，整局就被放大。慢的那一头，就是这样被拉长的。",
+   "dur": 11.06,
+   "file": "vo\\barbara\\model.wav"
+  },
+  {
+   "id": "log",
+   "text": "乘法不好算。取个对数，乘法就变成了加法。",
+   "dur": 4.46,
+   "file": "vo\\barbara\\log.wav"
+  },
+  {
+   "id": "law",
+   "text": "而很多互不相干的小数相加，结果总是中间高、两头低，堆成一条钟形曲线。",
+   "dur": 7.22,
+   "file": "vo\\barbara\\law.wav"
+  },
+  {
+   "id": "fit",
+   "text": "验证一下：实测算出来的分位数，和预测几乎一个点一个点对上了。",
+   "dur": 5.66,
+   "file": "vo\\barbara\\fit.wav"
+  },
+  {
+   "id": "interlude",
+   "text": "所以这口钟，长在对数轴上。",
+   "dur": 2.9,
+   "file": "vo\\barbara\\interlude.wav"
+  },
+  {
+   "id": "profile",
+   "text": "这群人是谁？平均个人最佳三十二秒，每秒转三点一五次。",
+   "dur": 5.42,
+   "file": "vo\\barbara\\profile.wav"
+  },
+  {
+   "id": "rank",
+   "text": "一半的人四十秒内完成，最好的一成，二十秒内。",
+   "dur": 4.1,
+   "file": "vo\\barbara\\rank.wav"
+  },
+  {
+   "id": "answer",
+   "text": "所以答案是——对数正态。不是成绩正态，是它在对数轴上正态。",
+   "dur": 5.58,
+   "file": "vo\\barbara\\answer.wav"
+  },
+  {
+   "id": "outro",
+   "text": "数据不会说谎。谢谢观看。",
+   "dur": 2.7,
+   "file": "vo\\barbara\\outro.wav"
+  }
+ ]
+}
